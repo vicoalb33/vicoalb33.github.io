@@ -70,15 +70,24 @@ img {
 }
 
 @media (max-width: 768px) {
-  .footer .copyright {
+.footer .copyright {
     flex-basis: 100%;
     text-align: center;
     padding-left: 0;
   }
-  .contact {
+.contact {
     flex-basis: 55%;
   }
-  .twitter, .facebook, .linkedin {
+.twitter, .facebook, .linkedin {
     flex-basis: 15%;
   }
 }
+
+.avatar {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 2px 2px 10px grey;
+  margin: 10px
+  }
