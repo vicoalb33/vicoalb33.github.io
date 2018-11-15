@@ -1,31 +1,110 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="utf-8">
-	<title>Mon premier site web</title>
-
-	<link rel="stylesheet" type="text/css" href="style.css">
+  <title>Loc'linge</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 </head>
 <body>
-	<h1>Julien Laurent</h1>
-	<h2>Apprendre à programmer</h2>
-	<p>Ceci est mon premier paragraphe <b>en gras</b> <i>et en italique </i>
-	</p>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Loc'linge</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
-	<ul>
-		<li>Mon 1er item</li>
-		<li>Mon deuxieme item</li>
-	</ul>
-	<ol>
-		<li>Mon 1er item ol</li>
-		<li>Mon deuxieme item ol</li>
-	</ol>
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+      <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Nos formules <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#">À propos de nous</a>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form>
+    </div>
+  </nav>
+    <div id="banner">
+  <h2>Choisissez la formule adaptée à votre besoin</h2>
+  <button type="button" class="btn btn-primary">Trouvez la formule qui vous correspond</button>
+    </div>
 
-	<img src="https://lh3.googleusercontent.com/FyZA5SbKPJA7Y3XCeb9-uGwow8pugxj77Z1xvs8vFS6EI3FABZDCDtA9ScqzHKjhU8av_Ck95ET-P_rPJCbC2v_OswCN8A=s688" alt=menu>
+      <div class="container">
+        <div class="row">
+          <div class="col-4">
 
-	<a href="https://kedge.edu/" target="_blank">Kedge</a>
+            <div class="card" style="width: 20rem;">
+              <img class="card-img-top" src="image/Set1.jpg" alt="Set1" class="img-thumbnail">
+              <div class="card-body">
+                <h5 class="card-title">Set de linge séjour court/Basique</h5>
+                <p class="card-text">Composition du set :</p>
+                <ul>
+                <li>2 serviettes de bain de grande taille</li>
+                <li>2 serviettes de bain de petite taille</li>
+                </ul>
+                <a href="#" class="btn btn-primary">Commandez dès maintenant</a>
+              </div>
+            </div>
+          </div>
+  
+          <div class="col-4">
+              <div class="card" style="width: 20rem;">
 
-	<img src="images/satelite.jpg">
+                <img class="card-img-top" src="image/Set2.jpg" alt="Set2" class="img-thumbnail">
+                <div class="card-body">
+                  <h5 class="card-title">Set de linge séjour court/Basique</h5>
+                  <p class="card-text">Composition du set :</p>
+                  <ul>
+                  <li>2 serviettes de bain de grande taille</li>
+                  <li>2 serviettes de bain de taille moyenne</li>
+                  <li>2 serviettes de bain de petite taille</li>
+                  <li>2 serviettes de bain de très petite taille</li>
+                  <a href="#" class="btn btn-primary">Commandez dès maintenant</a> 
+                  </ul>
+                </div>
+              </div>
+          </div>
+
+
+          <div class="col-4">
+              <div class="card" style="width: 20rem;">
+                <img class="card-img-top" src="image/Set3.jpg" alt="Set3" class="img-thumbnail">
+                  <div class="card-body">
+                    <h5 class="card-title">Set de linge séjour court/Basique</h5>
+                    <p class="card-text">Composition du set :</p>
+                    <ul>
+                    <li>10 serviettes de bain de grande taille</li>
+                    </ul>
+                    <a href="#" class="btn btn-primary">Commandez dès maintenant</a>
+                  </div>
+              </div>
+          </div>
+        </div>
+      </div>  
+
+<footer class="footer">
+  <div class="copyright">
+    © 2018 - Loc'linge
+  </div>
+  <div class="contact">
+    Contact Us
+  </div>
+  <div class="facebook">
+    f
+  </div>
+  <div class="twitter">
+    t
+  </div>
+  <div class="linkedin">
+    in
+  </div>
+</footer>
 </body>
-</html>
 </html>

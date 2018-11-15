@@ -1,1 +1,84 @@
-img
+body{
+  font-family: arial;
+  text-align: center;
+
+}
+
+#banner {
+  color: black;
+  background: linear-gradient( 20deg, rgba(10, 10, 10, 0.5), rgba(200, 200, 200, 0.5)),
+    url("image/Bannière.jpg");
+  background-position: center;
+  background-size: cover;
+  padding: 200px;
+  text-align: center;
+
+}
+
+img {
+  width: 300px;
+  height: 300px;
+/*  border-radius: 50%;*/
+  box-shadow: 5px 5px 10px grey;
+}
+
+.card {
+  padding: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.footer {
+  display: flex;
+  color: white;
+  flex-wrap: wrap;
+}
+
+.footer div {
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer .copyright {
+  background: grey;
+  flex: 1;
+  flex-basis: 50%;
+  text-align: left;
+  padding-left: 20px;
+}
+
+.contact {
+  background: green;
+    flex-basis: 20%;
+}
+
+.facebook {
+  background: blue;
+  flex-basis: 10%;
+}
+
+.twitter {
+  background: #73CCD0;
+  flex-basis: 10%;
+}
+
+.linkedin {
+  background: #62757C;
+  flex-basis: 10%;
+}
+
+@media (max-width: 768px) {
+  .footer .copyright {
+    flex-basis: 100%;
+    text-align: center;
+    padding-left: 0;
+  }
+  .contact {
+    flex-basis: 55%;
+  }
+  .twitter, .facebook, .linkedin {
+    flex-basis: 15%;
+  }
+}
